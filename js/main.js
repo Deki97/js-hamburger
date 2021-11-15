@@ -3,6 +3,8 @@ const apriBurgerMenu = document.querySelector('.header-right i');
 
 apriBurgerMenu.addEventListener('click', 
     function() {
-        alert('Ciao hai aperto il burger');
+        const burgerMenu = document.querySelector('.hamburger-menu');
+        // console.log(burgerMenu);
+        burgerMenu.style.display = "block";
     }
 )
